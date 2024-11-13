@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Prompt", sans-serif;  
+}
+
+.bg-navy {
+    background-image: linear-gradient(135deg, rgba(37, 41, 54, 1) 0%, rgba(67, 74, 98, 1) 100%);
+}
+
+.btn:active {
+    transform: scale(0.95); /* Shrinks the button slightly when clicked */
+  }
+  
+  .btn-click-animation {
+    animation: clickAnimation 0.3s ease; /* Controls the animation duration and easing */
+  }
+  
+  @keyframes clickAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.95); /* Shrinks in the middle of the animation */
+    }
+    100% {
+      transform: scale(1); /* Returns to normal size */
+    }
+  }
+  
